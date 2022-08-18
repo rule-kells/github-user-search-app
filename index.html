@@ -44,10 +44,12 @@
 
   <main class="container">
     <div class="search-user__card">
-      <label for="search-user" aria-label="search GitHub username"><img src="./assets/icon-search.svg" alt="" /></label>
-      <input type="text" name="search-user" id="search-user" placeholder="Search GitHub username..." required />
-      <p class="error error--hidden">No results</p>
-      <button class="btn search-user--btn" type="submit">Search</button>
+      <form action="#">
+        <label for="search-user" aria-label="search GitHub username"><img src="./assets/icon-search.svg" alt="" /></label>
+        <input type="text" name="search-user" id="search-user" placeholder="Search GitHub username..." required />
+        <p class="error error--hidden">No results</p>
+        <button class="btn search-user--btn" type="submit">Search</button>
+      </form>
     </div>
 
     <div class="github__card"></div>
